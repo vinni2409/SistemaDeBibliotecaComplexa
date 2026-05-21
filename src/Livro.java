@@ -9,4 +9,9 @@ public class Livro extends ItemAcervo{
         this.numeroPaginas = numeroPaginas;
         this.genero = genero;
     }
+
+    public String getDetalhes(){
+        return "ISBN: " + isbn + " | Numero de paginas: " + numeroPaginas + " | genero: " + genero;
+    }
+
 }
