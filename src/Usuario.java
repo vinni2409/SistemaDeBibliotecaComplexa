@@ -29,4 +29,28 @@ public class Usuario {
     public void setEmprestimoAtivo(int emprestimoAtivo) {
         this.emprestimoAtivo = emprestimoAtivo;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void PodePegarEprestimo() {
+        if (emprestimoAtivo == 0) {
+            System.out.println("Emprestimo Disponível para uso");
+        } else {
+            System.out.println("Emprestimo indísponivel");
+        }
+    }
 }
