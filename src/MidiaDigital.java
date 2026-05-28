@@ -3,8 +3,8 @@ public class MidiaDigital extends ItemAcervo{
     private String urlAcesso;
     private double tamanhoMB;
 
-    public MidiaDigital(int id, String titulo, String autor, int anoDaPublicacao, boolean disponivel, String formato, String urlAcesso, double tamanhoMB) {
-        super(id, titulo, autor, anoDaPublicacao, disponivel);
+    public MidiaDigital(int id, String titulo, String autor, int anoDaPublicacao, String formato, String urlAcesso, double tamanhoMB) {
+        super(id, titulo, autor, anoDaPublicacao);
         this.formato = formato;
         this.urlAcesso = urlAcesso;
         this.tamanhoMB = tamanhoMB;

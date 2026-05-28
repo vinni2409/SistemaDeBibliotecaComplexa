@@ -5,7 +5,7 @@ public class ItemAcervo {
     private int anoDaPublicacao;
     private boolean disponivel;
 
-    public ItemAcervo(int id, String titulo, String autor, int anoDaPublicacao, boolean disponivel) {
+    public ItemAcervo(int id, String titulo, String autor, int anoDaPublicacao) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;

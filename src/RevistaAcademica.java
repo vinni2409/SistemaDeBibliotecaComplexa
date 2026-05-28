@@ -3,8 +3,8 @@ public class RevistaAcademica extends ItemAcervo{
     private String areaConhecimento;
     private int edicao;
 
-    public RevistaAcademica(int id, String titulo, String autor, int anoDaPublicacao, boolean disponivel, String issn, String areaConhecimento, int edicao) {
-        super(id, titulo, autor, anoDaPublicacao, disponivel);
+    public RevistaAcademica(int id, String titulo, String autor, int anoDaPublicacao, String issn, String areaConhecimento, int edicao) {
+        super(id, titulo, autor, anoDaPublicacao);
         this.issn = issn;
         this.areaConhecimento = areaConhecimento;
         this.edicao = edicao;
