@@ -16,4 +16,6 @@ public class ItemAcervo {
     public String getDetalhes(){
         return "ID: " + id + " | Título: " + titulo + " | Autor: " + autor + " | Ano: " + anoDaPublicacao + " | Disponivel" + disponivel;
     }
+
+    public void setDisponivel(boolean disponivel) { this.disponivel = disponivel; }
 }
